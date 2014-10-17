@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* TiSmsviewModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiSmsviewModule.h */; };
+		24DD6CFA1134B3F500162E58 /* TiSmsviewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiSmsviewModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* TiSmsviewModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiSmsviewModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* TiSmsviewModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiSmsviewModuleAssets.m */; };
+		3312BB9916739B8500D694E8 /* PESMSIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3312BB9716739B8500D694E8 /* PESMSIcon.h */; };
+		3312BB9A16739B8500D694E8 /* PESMSIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3312BB9816739B8500D694E8 /* PESMSIcon.m */; };
+		3362DEAB162464FA001F0766 /* EGORefreshTableFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3362DEA9162464FA001F0766 /* EGORefreshTableFooterView.h */; };
+		3362DEAC162464FA001F0766 /* EGORefreshTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3362DEAA162464FA001F0766 /* EGORefreshTableFooterView.m */; };
+		3367B0061623140A002465B2 /* EGORefreshTableHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3367B0041623140A002465B2 /* EGORefreshTableHeaderView.h */; };
+		3367B0071623140A002465B2 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3367B0051623140A002465B2 /* EGORefreshTableHeaderView.m */; };
+		AA747D9F0F9514B9006C5449 /* TiSmsview_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiSmsview_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		B606756114592C140085E712 /* PESMSTextLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B606755F14592C130085E712 /* PESMSTextLabel.h */; };
+		B606756214592C140085E712 /* PESMSTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B606756014592C140085E712 /* PESMSTextLabel.m */; };
+		B671D17B1405C80400C5F651 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B671D17A1405C80400C5F651 /* CoreText.framework */; };
+		B6A5206213C3701C0016C96A /* TiSmsviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A5205E13C3701A0016C96A /* TiSmsviewView.h */; };
+		B6A5206313C3701C0016C96A /* TiSmsviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A5205F13C3701B0016C96A /* TiSmsviewView.m */; };
+		B6A5206413C3701C0016C96A /* TiSmsviewViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A5206013C3701B0016C96A /* TiSmsviewViewProxy.h */; };
+		B6A5206513C3701C0016C96A /* TiSmsviewViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A5206113C3701C0016C96A /* TiSmsviewViewProxy.m */; };
+		B6F6BD2E13F97C8200AD29C4 /* PESMSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F6BD2813F97C7F00AD29C4 /* PESMSLabel.h */; };
+		B6F6BD2F13F97C8200AD29C4 /* PESMSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F6BD2913F97C8000AD29C4 /* PESMSLabel.m */; };
+		B6F6BD3013F97C8200AD29C4 /* PESMSScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F6BD2A13F97C8000AD29C4 /* PESMSScrollView.h */; };
+		B6F6BD3113F97C8200AD29C4 /* PESMSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F6BD2B13F97C8100AD29C4 /* PESMSScrollView.m */; };
+		B6F6BD3213F97C8200AD29C4 /* PESMSTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F6BD2C13F97C8200AD29C4 /* PESMSTextArea.h */; };
+		B6F6BD3313F97C8200AD29C4 /* PESMSTextArea.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F6BD2D13F97C8200AD29C4 /* PESMSTextArea.m */; };
+		B6F6BD3813F97F5500AD29C4 /* HPGrowingTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F6BD3413F97F5400AD29C4 /* HPGrowingTextView.h */; };
+		B6F6BD3913F97F5500AD29C4 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F6BD3513F97F5400AD29C4 /* HPGrowingTextView.m */; };
+		B6F6BD3A13F97F5500AD29C4 /* HPTextViewInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B6F6BD3613F97F5500AD29C4 /* HPTextViewInternal.h */; };
+		B6F6BD3B13F97F5500AD29C4 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F6BD3713F97F5500AD29C4 /* HPTextViewInternal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = textfield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* TiSmsviewModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiSmsviewModule.h; path = Classes/TiSmsviewModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* TiSmsviewModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSmsviewModule.m; path = Classes/TiSmsviewModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* TiSmsviewModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiSmsviewModuleAssets.h; path = Classes/TiSmsviewModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* TiSmsviewModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSmsviewModuleAssets.m; path = Classes/TiSmsviewModuleAssets.m; sourceTree = "<group>"; };
+		3312BB9716739B8500D694E8 /* PESMSIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PESMSIcon.h; path = Classes/PESMSIcon.h; sourceTree = "<group>"; };
+		3312BB9816739B8500D694E8 /* PESMSIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PESMSIcon.m; path = Classes/PESMSIcon.m; sourceTree = "<group>"; };
+		3362DEA9162464FA001F0766 /* EGORefreshTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableFooterView.h; path = Classes/EGORefreshTableFooterView.h; sourceTree = "<group>"; };
+		3362DEAA162464FA001F0766 /* EGORefreshTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableFooterView.m; path = Classes/EGORefreshTableFooterView.m; sourceTree = "<group>"; };
+		3367B0041623140A002465B2 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = Classes/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		3367B0051623140A002465B2 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = Classes/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* TiSmsview_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiSmsview_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B606755F14592C130085E712 /* PESMSTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PESMSTextLabel.h; path = Classes/PESMSTextLabel.h; sourceTree = "<group>"; };
+		B606756014592C140085E712 /* PESMSTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PESMSTextLabel.m; path = Classes/PESMSTextLabel.m; sourceTree = "<group>"; };
+		B671D17A1405C80400C5F651 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B6A51F9C13C158BA0016C96A /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		B6A5204C13C23C520016C96A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B6A5205E13C3701A0016C96A /* TiSmsviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiSmsviewView.h; path = Classes/TiSmsviewView.h; sourceTree = "<group>"; };
+		B6A5205F13C3701B0016C96A /* TiSmsviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSmsviewView.m; path = Classes/TiSmsviewView.m; sourceTree = "<group>"; };
+		B6A5206013C3701B0016C96A /* TiSmsviewViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiSmsviewViewProxy.h; path = Classes/TiSmsviewViewProxy.h; sourceTree = "<group>"; };
+		B6A5206113C3701C0016C96A /* TiSmsviewViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiSmsviewViewProxy.m; path = Classes/TiSmsviewViewProxy.m; sourceTree = "<group>"; };
+		B6F6BD2813F97C7F00AD29C4 /* PESMSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PESMSLabel.h; path = Classes/PESMSLabel.h; sourceTree = "<group>"; };
+		B6F6BD2913F97C8000AD29C4 /* PESMSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PESMSLabel.m; path = Classes/PESMSLabel.m; sourceTree = "<group>"; };
+		B6F6BD2A13F97C8000AD29C4 /* PESMSScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PESMSScrollView.h; path = Classes/PESMSScrollView.h; sourceTree = "<group>"; };
+		B6F6BD2B13F97C8100AD29C4 /* PESMSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PESMSScrollView.m; path = Classes/PESMSScrollView.m; sourceTree = "<group>"; };
+		B6F6BD2C13F97C8200AD29C4 /* PESMSTextArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PESMSTextArea.h; path = Classes/PESMSTextArea.h; sourceTree = "<group>"; };
+		B6F6BD2D13F97C8200AD29C4 /* PESMSTextArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PESMSTextArea.m; path = Classes/PESMSTextArea.m; sourceTree = "<group>"; };
+		B6F6BD3413F97F5400AD29C4 /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPGrowingTextView.h; path = Classes/HPGrowingTextView.h; sourceTree = "<group>"; };
+		B6F6BD3513F97F5400AD29C4 /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPGrowingTextView.m; path = Classes/HPGrowingTextView.m; sourceTree = "<group>"; };
+		B6F6BD3613F97F5500AD29C4 /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HPTextViewInternal.h; path = Classes/HPTextViewInternal.h; sourceTree = "<group>"; };
+		B6F6BD3713F97F5500AD29C4 /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HPTextViewInternal.m; path = Classes/HPTextViewInternal.m; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libPecTf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPecTf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B671D17B1405C80400C5F651 /* CoreText.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libPecTf.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* textfield */ = {
+			isa = PBXGroup;
+			children = (
+				B6A5204B13C23C520016C96A /* assets */,
+				B6A51F9B13C158BA0016C96A /* example */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = textfield;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B671D17A1405C80400C5F651 /* CoreText.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3367B0041623140A002465B2 /* EGORefreshTableHeaderView.h */,
+				3367B0051623140A002465B2 /* EGORefreshTableHeaderView.m */,
+				B6A51F8113C1575C0016C96A /* GrowingTextView */,
+				24DE9E0F11C5FE74003F90F6 /* TiSmsviewModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* TiSmsviewModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* TiSmsviewModule.h */,
+				24DD6CF81134B3F500162E58 /* TiSmsviewModule.m */,
+				B6A5205E13C3701A0016C96A /* TiSmsviewView.h */,
+				B6A5205F13C3701B0016C96A /* TiSmsviewView.m */,
+				B6A5206013C3701B0016C96A /* TiSmsviewViewProxy.h */,
+				B6A5206113C3701C0016C96A /* TiSmsviewViewProxy.m */,
+				3362DEA9162464FA001F0766 /* EGORefreshTableFooterView.h */,
+				3362DEAA162464FA001F0766 /* EGORefreshTableFooterView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TiSmsview_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		B6A51F8113C1575C0016C96A /* GrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B6F6BD3413F97F5400AD29C4 /* HPGrowingTextView.h */,
+				B6F6BD3513F97F5400AD29C4 /* HPGrowingTextView.m */,
+				B6F6BD3613F97F5500AD29C4 /* HPTextViewInternal.h */,
+				B6F6BD3713F97F5500AD29C4 /* HPTextViewInternal.m */,
+				B6F6BD2813F97C7F00AD29C4 /* PESMSLabel.h */,
+				B6F6BD2913F97C8000AD29C4 /* PESMSLabel.m */,
+				B6F6BD2A13F97C8000AD29C4 /* PESMSScrollView.h */,
+				B6F6BD2B13F97C8100AD29C4 /* PESMSScrollView.m */,
+				B6F6BD2C13F97C8200AD29C4 /* PESMSTextArea.h */,
+				B6F6BD2D13F97C8200AD29C4 /* PESMSTextArea.m */,
+				B606755F14592C130085E712 /* PESMSTextLabel.h */,
+				B606756014592C140085E712 /* PESMSTextLabel.m */,
+				3312BB9716739B8500D694E8 /* PESMSIcon.h */,
+				3312BB9816739B8500D694E8 /* PESMSIcon.m */,
+			);
+			name = GrowingTextView;
+			sourceTree = "<group>";
+		};
+		B6A51F9B13C158BA0016C96A /* example */ = {
+			isa = PBXGroup;
+			children = (
+				B6A51F9C13C158BA0016C96A /* app.js */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		B6A5204B13C23C520016C96A /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				B6A5204C13C23C520016C96A /* README */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* TiSmsview_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* TiSmsviewModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* TiSmsviewModuleAssets.h in Headers */,
+				B6A5206213C3701C0016C96A /* TiSmsviewView.h in Headers */,
+				B6A5206413C3701C0016C96A /* TiSmsviewViewProxy.h in Headers */,
+				B6F6BD2E13F97C8200AD29C4 /* PESMSLabel.h in Headers */,
+				B6F6BD3013F97C8200AD29C4 /* PESMSScrollView.h in Headers */,
+				B6F6BD3213F97C8200AD29C4 /* PESMSTextArea.h in Headers */,
+				B6F6BD3813F97F5500AD29C4 /* HPGrowingTextView.h in Headers */,
+				B6F6BD3A13F97F5500AD29C4 /* HPTextViewInternal.h in Headers */,
+				B606756114592C140085E712 /* PESMSTextLabel.h in Headers */,
+				3367B0061623140A002465B2 /* EGORefreshTableHeaderView.h in Headers */,
+				3362DEAB162464FA001F0766 /* EGORefreshTableFooterView.h in Headers */,
+				3312BB9916739B8500D694E8 /* PESMSIcon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* textfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "textfield" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = textfield;
+			productName = textfield;
+			productReference = D2AAC07E0554694100DB518D /* libPecTf.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "textfield" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* textfield */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* textfield */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* TiSmsviewModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* TiSmsviewModuleAssets.m in Sources */,
+				B6A5206313C3701C0016C96A /* TiSmsviewView.m in Sources */,
+				B6A5206513C3701C0016C96A /* TiSmsviewViewProxy.m in Sources */,
+				B6F6BD2F13F97C8200AD29C4 /* PESMSLabel.m in Sources */,
+				B6F6BD3113F97C8200AD29C4 /* PESMSScrollView.m in Sources */,
+				B6F6BD3313F97C8200AD29C4 /* PESMSTextArea.m in Sources */,
+				B6F6BD3913F97F5500AD29C4 /* HPGrowingTextView.m in Sources */,
+				B6F6BD3B13F97F5500AD29C4 /* HPTextViewInternal.m in Sources */,
+				B606756214592C140085E712 /* PESMSTextLabel.m in Sources */,
+				3367B0071623140A002465B2 /* EGORefreshTableHeaderView.m in Sources */,
+				3362DEAC162464FA001F0766 /* EGORefreshTableFooterView.m in Sources */,
+				3312BB9A16739B8500D694E8 /* PESMSIcon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* textfield */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/PecTf.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiSmsview_Prefix.pch;
+				GCC_VERSION = "";
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = PecTf;
+				SDKROOT = iphoneos;
+				TITANIUM_SDK = "/Users/teeaki/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 1.8.3.v20120529164726;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				DSTROOT = /tmp/PecTf.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiSmsview_Prefix.pch;
+				GCC_VERSION = "";
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = PecTf;
+				SDKROOT = iphoneos;
+				TITANIUM_SDK = "/Users/teeaki/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 1.8.3.v20120529164726;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TITANIUM_SDK = "/Users/teeaki/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 1.8.3.v20120529164726;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				TITANIUM_SDK = "/Users/teeaki/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 1.8.3.v20120529164726;
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "textfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "textfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
